@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendador de CPUs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Escolha sua CPU Ideal</h1>
+<div class="input-group">
+    <label for="dispositivo">Preferência de Dispositivo:</label>
+    <select id="dispositivo">
+        <option value="pc">PC de Mesa</option>
+        <option value="notebook">Notebook</option>
+        <option value="indiferente">Indiferente</option>
+    </select>
+</div>
+
+<div class="input-group">
+    <label for="desempenho">Desempenho:</label>
+    <select id="desempenho">
+        <option value="baixo">Baixo</option>
+        <option value="moderado">Moderado</option>
+        <option value="rapido">Rápido</option>
+    </select>
+</div>
+<div class="input-group">
+    <label for="custo">Custo:</label>
+    <select id="custo">
+        <option value="baixo">Baixo</option>
+        <option value="medio">Médio</option>
+        <option value="alto">Alto</option>
+    </select>
+</div>
+<div class="input-group">
+    <label for="aplicacao">Sera Usado Para:</label>
+    <select id="aplicacao">
+        <option value="jogos">Jogos</option>
+        <option value="edicao">Edição de Vídeos</option>
+        <option value="ia">Inteligência Artificial</option>
+    </select>
+</div>
+<button id="recomendar">Recomendar CPU</button>
+<div id="resultado"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
